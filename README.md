@@ -24,7 +24,7 @@ pip install streamlit plotly scikit-learn pandas numpy requests
 Optional: set your OpenWeatherMap API key as an environment variable (recommended):
 ```bash
 # Windows PowerShell
-$env:OWM_API_KEY = "3c7567ccdb5b204bec470f96f6115533"
+$env:OWM_API_KEY = "YOUR KEY"
 ```
 
 Optional terrain CSV: place `data/terrain.csv` with columns:
@@ -67,3 +67,4 @@ Talking points specific to this app:
 ## Notes
 - This project uses synthetic data for model training and as fallback for missing feeds; plug in authoritative sources (IMD/Bhuvan/SRTM) as available.
 - For production use, replace synthetic training with labeled historical flood datasets.
+
