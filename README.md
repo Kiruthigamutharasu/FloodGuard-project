@@ -65,6 +65,7 @@ Talking points specific to this app:
 - Map overlay: OpenWeather precipitation tiles over risk heatmap for situational awareness.
 
 ## Notes
-- This project uses synthetic data for model training and as fallback for missing feeds; plug in authoritative sources (IMD/Bhuvan/SRTM) as available.
+- This project uses synthetic data for model training and as fallback for missing feeds; plug in authoritative sources as available.
 - For production use, replace synthetic training with labeled historical flood datasets.
+
 
